@@ -1,0 +1,1 @@
+entities.Articles

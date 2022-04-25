@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.AjouterGuideController">
+   <children>
+      <Label fx:id="titreLabel" layoutX="243.0" layoutY="20.0" text="Ajouter Service Guide" textFill="#d70000" />
+      <Label layoutX="39.0" layoutY="84.0" text="Titre :" />
+      <Label layoutX="39.0" layoutY="124.0" text="Description : " />
+      <Label layoutX="39.0" layoutY="159.0" text="duration : " />
+      <Label layoutX="39.0" layoutY="198.0" text="date :" />
+      <Label layoutX="35.0" layoutY="238.0" text="Game Type :" />
+      <Label layoutX="35.0" layoutY="273.0" text="Coach : " />
+      <Label layoutX="39.0" layoutY="309.0" prefHeight="21.0" prefWidth="45.0" text="Prix : " />
+      <TextField fx:id="titleTF" layoutX="199.0" layoutY="72.0" />
+      <TextField fx:id="DescrpTF" layoutX="199.0" layoutY="112.0" />
+      <TextField fx:id="nbrhTF" layoutX="199.0" layoutY="151.0" />
+      <TextField fx:id="gameTF" layoutX="370.0" layoutY="233.0" />
+      <TextField fx:id="PrixLab" layoutX="193.0" layoutY="307.0" />
+      <Label fx:id="DATELabel" layoutX="199.0" layoutY="194.0" text="Label" />
+      <Button fx:id="ajouterBTn" layoutX="260.0" layoutY="355.0" mnemonicParsing="false" onAction="#AjoutGuide" text="Ajouter" />
+      <ChoiceBox fx:id="GameChoiceBox" layoutX="199.0" layoutY="233.0" prefWidth="150.0" />
+      <Hyperlink fx:id="CoachLink" layoutX="198.0" layoutY="269.0" text="Hyperlink" />
+   </children>
+</AnchorPane>

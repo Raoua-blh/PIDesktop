@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="reserPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="320.0" prefWidth="320.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ReservationModelController">
+   <children>
+      <VBox fx:id="ReservationCard" alignment="TOP_CENTER" prefHeight="304.0" prefWidth="320.0">
+         <children>
+            <HBox prefHeight="51.0" prefWidth="185.0">
+               <children>
+                  <ImageView fx:id="ResImg" fitHeight="79.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/ben-affleck.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="20.0" top="20.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label fx:id="Reservation" prefHeight="47.0" prefWidth="220.0" text="Reservation" textFill="#4a3f3f">
+                     <font>
+                        <Font name="Andalus" size="32.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </HBox.margin>
+                  </Label>
+                  <ImageView fx:id="deleteIconRes" fitHeight="26.0" fitWidth="29.0" onMouseClicked="#DeleteReservation" pickOnBounds="true" preserveRatio="true" styleClass="shadow">
+                     <image>
+                        <Image url="@../resources/x-button.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="53.0" prefWidth="354.0">
+               <children>
+                  <Label prefHeight="21.0" prefWidth="254.0" text="Titre Guide :" textFill="#403737">
+                     <HBox.margin>
+                        <Insets left="10.0" top="15.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Italic" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="titreResGuide" layoutX="61.0" layoutY="25.0" prefHeight="30.0" prefWidth="381.0" text="heello i am the first guide and i want to be so longg" textFill="#8a4444">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="81.0" prefWidth="185.0">
+               <children>
+                  <Label fx:id="dateReser" prefHeight="21.0" prefWidth="257.0" text="Date Reservation :" textFill="#403c3c">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Italic" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="dateResLabel" layoutX="61.0" layoutY="25.0" prefHeight="21.0" prefWidth="296.0" text="12 Hours" textFill="#903f3f">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefWidth="185.0">
+               <children>
+                  <Label fx:id="heure" prefHeight="21.0" prefWidth="326.0" text="Heure Debut :" textFill="#514c4c">
+                     <HBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Italic" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="HeureDeLabel" layoutX="61.0" layoutY="25.0" prefWidth="381.0" text="12/02/2020" textFill="#803f3f">
+                     <HBox.margin>
+                        <Insets left="20.0" top="5.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefWidth="185.0">
+               <children>
+                  <Label fx:id="coach" prefHeight="21.0" prefWidth="98.0" text="Coach :" textFill="#464343">
+                     <HBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Italic" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="coachResLabel" layoutX="61.0" layoutY="25.0" prefHeight="21.0" prefWidth="269.0" text="Mohsen" textFill="#8a4747">
+                     <HBox.margin>
+                        <Insets left="20.0" top="5.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefWidth="185.0">
+               <children>
+                  <Button alignment="CENTER" graphicTextGap="2.0" mnemonicParsing="false" onAction="#modifierRes" prefHeight="30.0" prefWidth="120.0" styleClass="res-btn" stylesheets="@../css/style.css" text="Modifier" textAlignment="CENTER" textFill="#800505" textOverrun="CENTER_WORD_ELLIPSIS">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="100.0" right="100.0" top="8.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+   <styleClass>
+      <String fx:value="fruit-item" />
+      <String fx:value="shadow" />
+   </styleClass>
+</AnchorPane>

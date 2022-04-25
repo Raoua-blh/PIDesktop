@@ -1,0 +1,3 @@
+java -jar twilio-8.9.0-jar-with-dependencies.jar
+java -jar sendgrid-java-latest.jar
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/USER/Desktop/JavaDesktopProject/ClutchT2/src/gui/AdminBack.fxml</file>
+            <file>file:/C:/Users/USER/Desktop/JavaDesktopProject/ClutchT2/src/Services/jeux_service.java</file>
+            <file>file:/C:/Users/USER/Desktop/JavaDesktopProject/ClutchT2/src/Controller/GestionGuideController.java</file>
+            <file>file:/C:/Users/USER/Desktop/JavaDesktopProject/ClutchT2/src/Controller/GuideModelController.java</file>
+            <file>file:/C:/Users/USER/Desktop/JavaDesktopProject/ClutchT2/src/Entities/Reservation.java</file>
+            <file>file:/C:/Users/USER/Desktop/JavaDesktopProject/ClutchT2/src/gui/HomeController.java</file>
+            <file>file:/C:/Users/USER/Desktop/JavaDesktopProject/ClutchT2/src/gui/Main.java</file>
+            <file>file:/C:/Users/USER/Desktop/JavaDesktopProject/ClutchT2/src/Entities/Guide.java</file>
+            <file>file:/C:/Users/USER/Desktop/JavaDesktopProject/ClutchT2/src/Services/GuideService.java</file>
+            <file>file:/C:/Users/USER/Desktop/JavaDesktopProject/ClutchT2/src/Services/JeuxService.java</file>
+            <file>file:/C:/Users/USER/Desktop/JavaDesktopProject/ClutchT2/src/gui/PDF.java</file>
+            <file>file:/C:/Users/USER/Desktop/JavaDesktopProject/ClutchT2/src/gui/ListeReservationController.java</file>
+            <file>file:/C:/Users/USER/Desktop/JavaDesktopProject/ClutchT2/src/Entities/UserM.java</file>
+            <file>file:/C:/Users/USER/Desktop/JavaDesktopProject/ClutchT2/src/gui/AjouterGuideController.java</file>
+            <file>file:/C:/Users/USER/Desktop/JavaDesktopProject/ClutchT2/src/gui/TESTER.java</file>
+            <file>file:/C:/Users/USER/Desktop/JavaDesktopProject/ClutchT2/src/gui/ReservationModelController.java</file>
+            <file>file:/C:/Users/USER/Desktop/JavaDesktopProject/ClutchT2/src/gui/AjouterReservationController.java</file>
+            <file>file:/C:/Users/USER/Desktop/JavaDesktopProject/ClutchT2/src/gui/AdminBackController.java</file>
+            <file>file:/C:/Users/USER/Desktop/JavaDesktopProject/ClutchT2/src/gui/ModifierGuideController.java</file>
+        </group>
+    </open-files>
+</project-private>

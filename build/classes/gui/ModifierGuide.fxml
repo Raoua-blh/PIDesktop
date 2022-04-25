@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="456.0" prefWidth="604.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ModifierGuideController">
+   <children>
+      <Label fx:id="addGuideTitle" layoutX="166.0" layoutY="38.0" prefHeight="53.0" prefWidth="249.0" text="Modifier Guide " AnchorPane.bottomAnchor="355.0" AnchorPane.leftAnchor="166.0" AnchorPane.rightAnchor="164.0" AnchorPane.topAnchor="38.0">
+         <textFill>
+            <RadialGradient centerX="0.47159090909090906" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#540a07" />
+                  <Stop color="#540a07" offset="0.007246376811594203" />
+                  <Stop color="RED" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="NGL" layoutX="70.0" layoutY="101.0" text="Guide Name :" textFill="#754242" />
+      <Label fx:id="DescrpGL" layoutX="70.0" layoutY="137.0" text="Small Description:" textFill="#754242" />
+      <Label fx:id="nbrhL" layoutX="70.0" layoutY="178.0" text="Duration :" textFill="#754242" />
+      <Label fx:id="DateLab" layoutX="70.0" layoutY="218.0" text="Creation Date : " textFill="#754242" />
+      <Label fx:id="GameL" layoutX="70.0" layoutY="256.0" text="Game : " textFill="#754242" />
+      <Label fx:id="coachNameLabel" layoutX="70.0" layoutY="291.0" text="Coach Name :" textFill="#754242" />
+      <AnchorPane layoutX="232.0" layoutY="96.0">
+         <children>
+            <TextField fx:id="nomGuide" layoutY="1.0" />
+         </children>
+      </AnchorPane>
+      <TextField fx:id="DescrpGTm" layoutX="232.0" layoutY="133.0" />
+      <TextField fx:id="HeureGT" layoutX="232.0" layoutY="173.0" />
+      <Button fx:id="btnmodifier" alignment="CENTER" graphicTextGap="5.0" layoutX="170.0" layoutY="379.0" mnemonicParsing="false" onAction="#modifierGuideBtn" prefHeight="28.0" prefWidth="125.0" styleClass="add-btn" stylesheets="@../css/style.css" text="Modifier" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="15.0" />
+         </font>
+         <effect>
+            <Reflection />
+         </effect>
+      </Button>
+      <Label fx:id="prixlb" layoutX="70.0" layoutY="327.0" text="Prix :" textFill="#4d0a0a" />
+      <TextField fx:id="PrixGuide" layoutX="232.0" layoutY="323.0" />
+      <TextField fx:id="gamenom" layoutX="232.0" layoutY="249.0" />
+      <TextField fx:id="coachnom" layoutX="232.0" layoutY="286.0" />
+      <TextField fx:id="DATE" layoutX="232.0" layoutY="213.0" />
+      <ChoiceBox fx:id="gameliste" layoutX="429.0" layoutY="249.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="coachListe" layoutX="429.0" layoutY="286.0" prefWidth="150.0" />
+      <Button fx:id="cancel" alignment="CENTER" graphicTextGap="5.0" layoutX="315.0" layoutY="379.0" mnemonicParsing="false" onAction="#cancelModif" prefHeight="28.0" prefWidth="125.0" styleClass="res-btn" stylesheets="@../css/style.css" text="Cancel" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="15.0" />
+         </font>
+         <effect>
+            <Reflection />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
